@@ -1,4 +1,6 @@
-import express, {request, response} from 'express';
+import "reflect-metadata"
+import express from 'express';
+import "./database";
 
 const app = express();
 
@@ -19,7 +21,7 @@ app.get("/", (request, response) => {
 });
 
 // 1 param => Rota(Recurso API)
-// 2 pram => request, responce
+// 2 param => request, responce
 app.post("/", (request, response) => {
     // Recebeu os dados para salvar
     return response.json({message: "Os dados foram salvos com sucesso!"})
