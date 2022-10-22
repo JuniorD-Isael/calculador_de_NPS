@@ -5,3 +5,5 @@ Estou usando o [TypeORM](https://typeorm.io/) para fazer o mapeamento do banco d
 Com ele eu posso mudar o banco de dados futuramente sem ter fazer muitas modificações no projeto.
 
 A propósito, o banco de dados escolhido para o projeto foi o SQlite para fins didáticos.
+
+Testes automatizados com Jest
