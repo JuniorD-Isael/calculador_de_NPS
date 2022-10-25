@@ -7,3 +7,5 @@ Com ele eu posso mudar o banco de dados futuramente sem ter fazer muitas modific
 A propósito, o banco de dados escolhido para o projeto foi o SQlite para fins didáticos.
 
 Testes automatizados com Jest
+Para o envios de emails para os "usuarios", usei o NodeMailer e o Ethereal para fazer envios fakes.
+
